@@ -200,7 +200,7 @@ nav {
     border-radius: 10px;
 }
 
-@media (max-width:375px) {
+@media (max-width:414px) {
     .links {
         display: flex;
         width: 100%;
