@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     color: #1C304A;
 
 }
@@ -19,40 +19,46 @@ body {
     padding: 30px;
     display: flex;
     margin-bottom: 30px;
+
 }
 
 .headliner {
     margin-top: 55px;
+    font-weight: 800;
 }
 
 .head {
-    font-weight: 300;
+    font-weight: 100;
     display: block;
 }
 
 .appLogo {
     width: 30%;
 
+
+
 }
 
 .languages {
     list-style: none;
     padding: 30px;
+
 }
 
 .projects {
     text-align: center;
     padding: 30px;
-    margin-bottom: 50px;
+
 
 }
 
 .contact {
     text-align: center;
     padding: 30px;
-    background-color: #046B99;
+    background-color: rgb(80, 152, 213);
     color: #fff;
-    height: 150px;
+    height: 300px;
+
 }
 
 .bio {
@@ -62,11 +68,17 @@ body {
 
 nav {
     width: 100%;
-    background-color: #046B99;
+    /* background-color: #046B99; */
+    background-color: rgb(80, 152, 213);
     height: 50px;
     text-align: center;
     align-self: flex-start;
     position: fixed;
+}
+
+.screenshot {
+    padding: 20px;
+
 }
 
 .aboutMe {
@@ -75,22 +87,27 @@ nav {
 }
 
 .aboutMeTitle {
-    font-size: 25px;
-    text-decoration: underline;
+    font-size: 30px;
     padding: 20px;
+    margin-bottom: 100px;
+    font-weight: 800;
 }
 
 .descriptionTitle {
+    font-size: 30px;
     padding: 20px;
-    font-weight: 500;
-    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 800;
     text-decoration: underline;
-
 }
+
+
 
 .appDescription {
     line-height: 140%;
     font-size: 20px;
+    display: block;
+    padding: 30px;
 
 }
 
@@ -100,15 +117,16 @@ nav {
     text-decoration: none;
     list-style: none;
     text-align: center;
-    margin-top: 10px
+    margin-top: 15px;
 }
 
 .projectsTitle {
-    font-size: 25px;
-    text-decoration: underline;
+    font-size: 30px;
     padding: 20px;
-
+    margin-bottom: 100px;
+    font-weight: 700;
 }
+
 
 .button {
     display: inline-block;
@@ -116,19 +134,31 @@ nav {
     text-decoration: none;
     color: black;
     padding: 10px 30px;
-    margin-top: 40px;
+    margin-top: 50px;
     border-radius: 20px;
 
 }
 
 .button:hover {
-    background: #7C90A0;
+    background: rgb(80, 152, 213);
     color: white;
 }
 
 .description {
 
     font-size: 20px;
+}
+
+.languagesTitle {
+    font-size: 30px;
+    margin-top: 300px;
+    font-weight: 700;
+}
+
+.topList {
+    list-style: none;
+    font-weight: 200;
+    margin-top: 30px;
 }
 
 .navLinks {
@@ -140,31 +170,54 @@ nav {
     text-align: center;
 }
 
+.navLinks:hover {
+    color: #1C304A;
+}
+
 .email {
     color: #fff;
     text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 30px;
+
+}
+
+.end {
+    display: block;
+    padding: 20px;
+    margin-top: 40px;
 
 }
 
 #icon {
     color: #000;
-    padding: 10px;
+    padding: 20px;
 }
 
 .appImg {
     width: 50%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
-@media (max-width:380px) {
+@media (max-width:375px) {
     .links {
         display: flex;
         width: 100%;
         justify-content: space-evenly;
     }
 
+    .languages {
+        padding: 0;
+
+    }
+
     .appImg {
-        width: 80%;
+        width: 100%;
+    }
+
+    .headliner {
+        margin-top: 70px;
     }
 
     .hello {
@@ -172,6 +225,147 @@ nav {
     }
 
     .appLogo {
-        width: 105%;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+}
+
+@media (min-width:600px) {
+    .appLogo {
+        margin-top: 55px;
+        width: 60%;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .bio {
+        font-size: 25px;
+    }
+
+    .aboutMeTitle {
+        font-size: 50px;
+    }
+
+    .appDescription {
+        font-size: 25px;
+    }
+
+    .projectsTitle {
+        font-size: 50px;
+    }
+
+    .descriptionTitle {
+        font-size: 35px;
+
+    }
+
+    .hello {
+        display: block;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hello {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .headliner {
+        margin-top: 100px;
+    }
+
+    .appLogo {
+        width: 30%;
+    }
+
+    .flexProject {
+        display: flex;
+        margin-top: 100px;
+
+
+
+
+    }
+
+    .projects {
+        margin-bottom: 0px;
+    }
+
+    .languages {
+        letter-spacing: 2.5px;
+        font-size: 20px;
+    }
+
+    .languagesTitle {
+        margin-left: 20px;
+    }
+
+    .button {
+        margin: 15px;
+    }
+
+    .buttons {
+        justify-content: left;
+
+        padding: 30px;
+    }
+
+
+
+    .description {
+        text-align: left;
+
+    }
+
+    .descriptionTitle {
+        margin-bottom: 100px;
+    }
+
+    .email {
+        font-size: 20px;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contactInfo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+
+
+    }
+
+    .contactTitle {
+        margin-bottom: 30px;
+    }
+
+    .aboutMe {
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+    }
+
+    .end {
+        margin-top: 40px;
+    }
+
+    .appImg {
+        width: 90%;
+        height: 60%;
+        margin-top: 90px;
+        padding: 30px;
+        border-radius: 10px;
     }
 }
