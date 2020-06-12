@@ -200,7 +200,7 @@ nav {
     border-radius: 10px;
 }
 
-@media (max-width:414px) {
+@media (max-width:415px) {
     .links {
         display: flex;
         width: 100%;
@@ -290,7 +290,7 @@ nav {
     }
 
     .appLogo {
-        width: 30%;
+        width: 500px;
     }
 
     .flexProject {
@@ -369,7 +369,6 @@ nav {
 
     .appImg {
         width: 90%;
-        height: 60%;
         margin-top: 90px;
         padding: 30px;
         border-radius: 10px;
