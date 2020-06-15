@@ -47,6 +47,14 @@ body {
 
 }
 
+.liAnimation1 {
+    animation-delay: 0.5s;
+}
+
+.liAnimation2 {
+    animation-delay: 1s
+}
+
 .projects {
     text-align: center;
     padding: 30px;

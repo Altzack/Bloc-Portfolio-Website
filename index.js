@@ -1,0 +1,3 @@
+const opp = {
+  isAwesome: true
+};
