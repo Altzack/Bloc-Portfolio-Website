@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(255, 255, 255);
-    color: #1C304A;
+    background-color: rgb(22, 47, 83);
+    color: rgb(252, 252, 252);
     max-width: 100%;
 
 }
@@ -21,16 +21,26 @@ body {
     display: flex;
     margin-bottom: 30px;
 
+
+}
+
+.underLiner {
+    color: rgb(235, 70, 85)
 }
 
 .headliner {
     margin-top: 55px;
-    font-weight: 800;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+
+    color: rgb(252, 252, 252)
 }
 
 .head {
-    font-weight: 100;
+    font-weight: 300;
     display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(252, 252, 252)
 }
 
 .appLogo {
@@ -44,15 +54,30 @@ body {
     list-style: none;
     padding: 30px;
     display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.liAnimation {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
 
 }
+
 
 .liAnimation1 {
     animation-delay: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
 }
 
 .liAnimation2 {
-    animation-delay: 1s
+    animation-delay: 1s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
 }
 
 .projects {
@@ -65,21 +90,24 @@ body {
 .contact {
     text-align: center;
     padding: 30px;
-    background-color: rgb(80, 152, 213);
+    background-color: rgb(38, 82, 143);
     color: #fff;
     height: 300px;
+
 
 }
 
 .bio {
     line-height: 140%;
     font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
     width: 100%;
 
-    background-color: rgb(80, 152, 213);
+    background-color: rgb(38, 82, 143);
     height: 50px;
     text-align: center;
     align-self: flex-start;
@@ -95,21 +123,26 @@ nav {
 .aboutMe {
     text-align: center;
     padding: 30px;
+
 }
 
 .aboutMeTitle {
     font-size: 30px;
     padding: 20px;
     margin-bottom: 100px;
-    font-weight: 800;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(235, 70, 85);
 }
 
 .descriptionTitle {
-    font-size: 30px;
+    font-size: 35px;
     padding: 20px;
     margin-bottom: 10px;
-    font-weight: 800;
+    font-weight: 500;
     text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(235, 70, 85);
 }
 
 
@@ -119,6 +152,8 @@ nav {
     font-size: 20px;
     display: block;
     padding: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -128,22 +163,24 @@ nav {
     text-decoration: none;
     list-style: none;
     text-align: center;
-    margin-top: 15px;
+
 }
 
 .projectsTitle {
     font-size: 30px;
     padding: 20px;
     margin-bottom: 100px;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(235, 70, 85);
 }
 
 
 .button {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid white;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px 30px;
     margin-top: 50px;
     border-radius: 20px;
@@ -151,7 +188,7 @@ nav {
 }
 
 .button:hover {
-    background: rgb(80, 152, 213);
+    background: rgb(235, 70, 85);
     color: white;
 }
 
@@ -163,7 +200,9 @@ nav {
 .languagesTitle {
     font-size: 30px;
     margin-top: 300px;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(235, 70, 85);
 }
 
 .topList {
@@ -175,14 +214,15 @@ nav {
 .navLinks {
     text-decoration: none;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: rgb(252, 252, 252);
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .navLinks:hover {
-    color: #1C304A;
+    color: rgb(235, 70, 85);
 }
 
 .email {
@@ -216,6 +256,7 @@ nav {
         display: flex;
         width: 100%;
         justify-content: space-evenly;
+        margin-top: 15px;
     }
 
     .languages {
@@ -248,11 +289,7 @@ nav {
     }
 }
 
-/* @media (max-width:600px) {
-    #icon {
-        margin-top: 30px;
-    }
-} */
+
 @media (max-width: 321px) {
     .languages {
         font-size: 15px;
@@ -281,6 +318,10 @@ nav {
         font-size: 60px;
     }
 
+    .appImg {
+        width: 65%;
+    }
+
     .bio {
         font-size: 25px;
     }
@@ -300,6 +341,10 @@ nav {
     .descriptionTitle {
         font-size: 35px;
 
+    }
+
+    .links {
+        margin-top: 15px;
     }
 
     .hello {
@@ -331,6 +376,17 @@ nav {
 
     }
 
+    .links {
+        margin-top: 5px;
+
+    }
+
+    .navLinks {
+        font-size: 25px;
+
+
+    }
+
     .projects {
         margin-bottom: 0px;
     }
@@ -338,10 +394,11 @@ nav {
     .languages {
         letter-spacing: 2.5px;
         font-size: 20px;
+        margin-left: 30px;
     }
 
     .languagesTitle {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .button {
@@ -362,7 +419,9 @@ nav {
     }
 
     .descriptionTitle {
-        margin-bottom: 100px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        text-decoration: underline;
     }
 
     .email {
@@ -397,7 +456,7 @@ nav {
     }
 
     .appImg {
-        width: 90%;
+        width: 80%;
         margin-top: 90px;
         padding: 30px;
         border-radius: 10px;
