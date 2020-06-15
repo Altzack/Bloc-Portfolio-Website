@@ -1,3 +1,1 @@
-const opp = {
-  isAwesome: true
-};
+
