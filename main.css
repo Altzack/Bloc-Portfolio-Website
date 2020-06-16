@@ -24,6 +24,10 @@ body {
 
 }
 
+.flexProject {
+    margin-bottom: 150px;
+}
+
 .underLiner {
     color: rgb(235, 70, 85)
 }
@@ -214,11 +218,10 @@ nav {
 .navLinks {
     text-decoration: none;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
     font-weight: 500;
     color: rgb(252, 252, 252);
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navLinks:hover {
@@ -332,6 +335,13 @@ nav {
         justify-content: space-evenly;
     }
 
+    .navLinks {
+        font-size: 20px;
+
+
+    }
+
+
     .liAnimation {
         font-size: 50px;
     }
@@ -390,7 +400,7 @@ nav {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .hello {
         display: flex;
         justify-content: space-evenly;
@@ -435,12 +445,12 @@ nav {
     }
 
     .links {
-        margin-top: 5px;
+        margin-top: 15px;
 
     }
 
     .navLinks {
-        font-size: 25px;
+        font-size: 20px;
 
 
     }
