@@ -1,545 +1,502 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(22, 47, 83);
-    color: rgb(252, 252, 252);
-    max-width: 100%;
-
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(22, 47, 83);
+  color: rgb(252, 252, 252);
+  max-width: 100%;
 }
 
 .hello {
-    text-align: center;
-    padding: 30px;
-    display: flex;
-    margin-bottom: 30px;
-
-
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .flexProject {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .flexProject1 {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .underLiner {
-    color: rgb(235, 70, 85)
+  color: rgb(235, 70, 85);
 }
 
 .headliner {
-    margin-top: 55px;
-    font-weight: 500;
-    font-family: 'Oswald', sans-serif;
+  margin-top: 55px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
 
-    color: rgb(252, 252, 252)
+  color: rgb(252, 252, 252);
 }
 
 .head {
-    font-weight: 300;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(252, 252, 252)
+  font-weight: 300;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(252, 252, 252);
 }
 
 .appLogo {
-    width: 30%;
-
-
-
+  width: 30%;
 }
 
 .languages {
-    list-style: none;
-    padding: 30px;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+  list-style: none;
+  padding: 30px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .liAnimation {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 50px;
-
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
 }
 
-
 .liAnimation1 {
-    animation-delay: 0.5s;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 50px;
+  animation-delay: 0.5s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
 }
 
 .liAnimation2 {
-    animation-delay: 1s;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 50px;
+  animation-delay: 1s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
 }
 
 .projects {
-    text-align: center;
-    padding: 30px;
-
-
+  text-align: center;
+  padding: 30px;
 }
 
 .contact {
-    text-align: center;
-    padding: 30px;
-    background-color: rgb(78, 122, 189);
-    color: #fff;
-    height: 300px;
-
-
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(78, 122, 189);
+  color: #fff;
+  height: 300px;
 }
 
 .bio {
-    line-height: 140%;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+  line-height: 140%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
-    width: 100%;
+  width: 100%;
 
-    background-color: rgb(49, 88, 141);
-    height: 50px;
-    text-align: center;
-    align-self: flex-start;
-    position: fixed;
-    max-width: 100%;
+  background-color: rgb(49, 88, 141);
+  height: 50px;
+  text-align: center;
+  align-self: flex-start;
+  position: fixed;
+  max-width: 100%;
 }
 
 .screenshot {
-    padding: 20px;
-
+  padding: 20px;
 }
 
 .aboutMe {
-    text-align: center;
-    padding: 30px;
-
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 100px;
 }
 
 .aboutMeTitle {
-    font-size: 30px;
-    padding: 20px;
-    margin-bottom: 100px;
-    font-weight: 500;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(235, 70, 85);
+  font-size: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: rgb(235, 70, 85);
 }
 
 .descriptionTitle {
-    font-size: 35px;
-    padding: 20px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    text-decoration: none !important;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(235, 70, 85);
+  font-size: 35px;
+  padding: 20px;
+  font-weight: 500;
+  text-decoration: none !important;
+  font-family: "Oswald", sans-serif;
+  color: rgb(235, 70, 85);
 }
 
-
-
 .appDescription {
-    line-height: 140%;
-    font-size: 20px;
-    display: block;
-    padding: 30px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-
+  line-height: 140%;
+  font-size: 20px;
+  display: block;
+  padding: 30px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 
 .links {
-    display: flex;
-    justify-content: space-evenly;
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
 }
 
 .projectsTitle {
-    font-size: 30px;
-    padding: 20px;
-    margin-bottom: 100px;
-    font-weight: 500;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(235, 70, 85);
+  font-size: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: rgb(235, 70, 85);
 }
 
-
 .button {
-    display: inline-block;
-    border: 1px solid white;
-    text-decoration: none;
-    color: white;
-    padding: 10px 30px;
-    margin-top: 50px;
-    border-radius: 20px;
-
+  display: inline-block;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 50px;
+  border-radius: 20px;
 }
 
 .button:hover {
-    background: rgb(235, 70, 85);
-    color: white;
+  background: rgb(235, 70, 85);
+  color: white;
 }
 
 .description {
-
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .languagesTitle {
-    font-size: 30px;
-    margin-top: 300px;
-    font-weight: 500;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(235, 70, 85);
+  font-size: 30px;
+  margin-top: 300px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  color: rgb(235, 70, 85);
 }
 
 .topList {
-    list-style: none;
-    font-weight: 200;
-    margin-top: 30px;
+  list-style: none;
+  font-weight: 200;
+  margin-top: 30px;
 }
 
 .navLinks {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgb(252, 252, 252);
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navLinks:hover {
-    color: rgb(235, 70, 85);
+  color: rgb(235, 70, 85);
 }
 
 .email {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    display: block;
-    padding: 30px;
-
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 30px;
 }
 
 .end {
-    display: block;
-    padding: 20px;
-    margin-top: 40px;
-
+  display: block;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 #icon {
-    color: #000;
-    padding: 20px;
+  color: #000;
+  padding: 20px;
 }
 
 .appImg {
-    width: 50%;
-    border-radius: 10px;
+  width: 50%;
+  border-radius: 10px;
 }
 
-@media (min-width:320px) {
-    .links {
-        display: flex;
-        width: 100%;
-        justify-content: space-evenly;
-        margin-top: 15px;
-    }
+@media (min-width: 320px) {
+  .links {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
 
-    .languages {
-        padding: 0;
+  .languages {
+    padding: 0;
+  }
 
-    }
+  .liAnimation {
+    font-size: 40px;
+  }
 
-    .liAnimation {
-        font-size: 40px;
-    }
+  .liAnimation1 {
+    font-size: 40px;
+  }
 
-    .liAnimation1 {
-        font-size: 40px;
-    }
+  .liAnimation2 {
+    font-size: 40px;
+  }
 
-    .liAnimation2 {
-        font-size: 40px;
-    }
+  .head {
+    font-size: 45px;
+  }
 
-    .head {
-        font-size: 45px;
-    }
+  .underLiner {
+    font-size: 50px;
+  }
 
-    .underLiner {
-        font-size: 50px;
-    }
+  .appImg {
+    width: 100%;
+  }
 
-    .appImg {
-        width: 100%;
-    }
+  .nav {
+    width: 100%;
+  }
 
-    .nav {
-        width: 100%;
-    }
+  .headliner {
+    margin-top: 70px;
+  }
 
-    .headliner {
-        margin-top: 70px;
-    }
+  .hello {
+    display: block;
+  }
 
-    .hello {
-        display: block;
-    }
-
-    .appLogo {
-        width: 100%;
-        margin-top: 30px;
-
-    }
+  .appLogo {
+    width: 100%;
+    margin-top: 30px;
+  }
 }
-
 
 @media (max-width: 321px) {
-    .languages {
-        font-size: 15px;
+  .languages {
+    font-size: 15px;
+  }
 
+  .end {
+    margin-top: 0px;
+    padding: 0px;
+  }
+}
+@media (max-width: 1000px) {
+  .flexProject {
+    margin-bottom: 100px;
+  }
+  .flexProject1 {
+    margin-bottom: 150px;
+  }
+}
+@media (min-width: 600px) {
+  .appLogo {
+    margin-top: 55px;
+    width: 60%;
+  }
 
-    }
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-    .end {
-        margin-top: 0px;
-        padding: 0px;
-    }
+  .navLinks {
+    font-size: 20px;
+  }
+
+  .liAnimation {
+    font-size: 50px;
+  }
+
+  .liAnimation1 {
+    font-size: 50px;
+  }
+
+  .liAnimation2 {
+    font-size: 50px;
+  }
+
+  .head {
+    font-size: 55px;
+  }
+
+  .underLiner {
+    font-size: 60px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .appImg {
+    width: 65%;
+  }
+
+  .bio {
+    font-size: 25px;
+  }
+
+  .aboutMeTitle {
+    font-size: 50px;
+  }
+
+  .appDescription {
+    font-size: 25px;
+  }
+
+  .projectsTitle {
+    font-size: 50px;
+  }
+
+  .descriptionTitle {
+    font-size: 35px;
+  }
+
+  .links {
+    margin-top: 15px;
+  }
+
+  .hello {
+    display: block;
+  }
 }
 
-@media (min-width:600px) {
-    .appLogo {
-        margin-top: 55px;
-        width: 60%;
-    }
-
-    .buttons {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .navLinks {
-        font-size: 20px;
-
-
-    }
-
-
-    .liAnimation {
-        font-size: 50px;
-    }
-
-    .liAnimation1 {
-        font-size: 50px;
-    }
-
-    .liAnimation2 {
-        font-size: 50px;
-    }
-
-    .head {
-        font-size: 55px;
-    }
-
-    .underLiner {
-        font-size: 60px;
-    }
-
-    h1 {
-        font-size: 60px;
-    }
-
-    .appImg {
-        width: 65%;
-    }
-
-    .bio {
-        font-size: 25px;
-    }
-
-    .aboutMeTitle {
-        font-size: 50px;
-    }
-
-    .appDescription {
-        font-size: 25px;
-    }
-
-    .projectsTitle {
-        font-size: 50px;
-    }
-
-    .descriptionTitle {
-        font-size: 35px;
-
-    }
-
-    .links {
-        margin-top: 15px;
-    }
-
-    .hello {
-        display: block;
-    }
-}
-
-@media (min-width: 1024px) {
-    .hello {
-        display: flex;
-        justify-content: space-evenly;
-
-    }
-
-    .headliner {
-        margin-top: 100px;
-    }
-
-    .liAnimation {
-        font-size: 55px;
-    }
-
-    .liAnimation1 {
-        font-size: 55px;
-    }
-
-    .liAnimation2 {
-        font-size: 55px;
-    }
-
-    .head {
-        font-size: 60px;
-    }
-
-    .underLiner {
-        font-size: 65px;
-    }
-
-    .appLogo {
-        width: 500px;
-    }
-
-    .flexProject {
-        display: flex;
-        margin-top: 100px;
-
-
-
-
-    }
-
-    .flexProject1 {
-        display: flex;
-        margin-top: 100px;
-
-
-
-
-    }
-
-    .links {
-        margin-top: 15px;
-
-    }
-
-    .navLinks {
-        font-size: 20px;
-
-
-    }
-
-    .projects {
-        margin-bottom: 0px;
-    }
-
-    .languages {
-        letter-spacing: 2.5px;
-        font-size: 20px;
-        margin-left: 30px;
-    }
-
-    .languagesTitle {
-        margin-left: 30px;
-    }
-
-    .button {
-        margin: 15px;
-    }
-
-    .buttons {
-        justify-content: left;
-
-        padding: 30px;
-    }
-
-
-
-    .description {
-        text-align: left;
-
-    }
-
-    .descriptionTitle {
-        margin-bottom: 20px;
-        margin-left: 10px;
-        text-decoration: underline;
-    }
-
-    .email {
-        font-size: 20px;
-    }
-
-    .contact {
-        width: 100%;
-    }
-
-    .contactInfo {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-bottom: 30px;
-
-
-    }
-
-    .contactTitle {
-        margin-bottom: 30px;
-    }
-
-    .aboutMe {
-        margin-top: 100px;
-        margin-bottom: 100px;
-
-    }
-
-    .end {
-        margin-top: 40px;
-    }
-
-    .appImg {
-        width: 80%;
-        margin-top: 90px;
-        padding: 30px;
-        border-radius: 10px;
-    }
+@media (min-width: 800px) {
+  .hello {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .headliner {
+    margin-top: 100px;
+  }
+
+  .liAnimation {
+    font-size: 55px;
+  }
+
+  .liAnimation1 {
+    font-size: 55px;
+  }
+
+  .liAnimation2 {
+    font-size: 55px;
+  }
+
+  .head {
+    font-size: 60px;
+  }
+
+  .underLiner {
+    font-size: 65px;
+  }
+
+  .appLogo {
+    width: 500px;
+  }
+
+  .flexProject {
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .flexProject1 {
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .links {
+    margin-top: 15px;
+  }
+
+  .navLinks {
+    font-size: 20px;
+  }
+
+  .projects {
+    margin-bottom: 0px;
+  }
+
+  .languages {
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .languagesTitle {
+    margin-left: 30px;
+  }
+
+  .button {
+    margin: 15px;
+  }
+
+  .buttons {
+    justify-content: left;
+
+    padding: 30px;
+  }
+
+  .description {
+    text-align: left;
+  }
+
+  .descriptionTitle {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+  }
+
+  .email {
+    font-size: 20px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contactInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .contactTitle {
+    margin-bottom: 30px;
+  }
+
+  .aboutMe {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .end {
+    margin-top: 40px;
+  }
+
+  .appImg {
+    width: 80%;
+    margin-top: 90px;
+    padding: 30px;
+    border-radius: 10px;
+  }
 }
