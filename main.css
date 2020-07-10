@@ -22,10 +22,6 @@ body {
 }
 
 .flexProject {
-  margin-bottom: 200px;
-}
-
-.flexProject1 {
   margin-bottom: 100px;
 }
 
@@ -82,7 +78,10 @@ body {
 
 .projects {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .contact {
@@ -112,7 +111,9 @@ nav {
 }
 
 .screenshot {
-  padding: 20px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .aboutMe {
@@ -182,6 +183,7 @@ nav {
 
 .description {
   font-size: 20px;
+  text-align: center;
 }
 
 .languagesTitle {
@@ -218,7 +220,9 @@ nav {
   display: block;
   padding: 30px;
 }
-
+#img2 {
+  width: 30%;
+}
 .end {
   display: block;
   padding: 20px;
@@ -231,8 +235,9 @@ nav {
 }
 
 .appImg {
-  width: 50%;
-  border-radius: 10px;
+  width: 60%;
+  height: auto;
+  object-fit: scale-down;
 }
 
 @media (min-width: 320px) {
@@ -299,14 +304,7 @@ nav {
     padding: 0px;
   }
 }
-@media (max-width: 1000px) {
-  .flexProject {
-    margin-bottom: 100px;
-  }
-  .flexProject1 {
-    margin-bottom: 150px;
-  }
-}
+
 @media (min-width: 600px) {
   .appLogo {
     margin-top: 55px;
@@ -413,14 +411,8 @@ nav {
     width: 500px;
   }
 
-  .flexProject {
-    display: flex;
-    margin-top: 100px;
-  }
-
   .flexProject1 {
     display: flex;
-    margin-top: 100px;
   }
 
   .links {
@@ -494,9 +486,6 @@ nav {
   }
 
   .appImg {
-    width: 80%;
-    margin-top: 90px;
-    padding: 30px;
-    border-radius: 10px;
+    width: 40%;
   }
 }
