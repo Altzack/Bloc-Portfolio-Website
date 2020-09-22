@@ -229,12 +229,12 @@ nav {
   display: block;
   padding: 20px;
   margin-top: 40px;
-  color: #000;
+  color: #fff;
   font-weight: 500;
 }
 
 #icon {
-  color: #000;
+  color: #fff;
   padding: 20px;
 }
 
@@ -444,6 +444,7 @@ nav {
 
   .contactTitle {
     margin-bottom: 30px;
+    color: #fff;
   }
 
   .aboutMe {
