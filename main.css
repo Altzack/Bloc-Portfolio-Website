@@ -51,7 +51,7 @@ body {
   color: rgb(252, 252, 252);
 }
 .head2 {
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   font-weight: 300;
   display: block;
   font-family: "Montserrat", sans-serif;
@@ -112,7 +112,7 @@ nav {
 .screenshot {
   width: 100%;
   overflow: hidden;
-  max-width: 350px;
+  /* max-width: 350px; */
   max-height: 350px;
 }
 
@@ -168,11 +168,12 @@ nav {
 }
 
 .button {
+  margin-right: 10px;
   display: inline-block;
   border: 1px solid white;
   text-decoration: none;
   color: white;
-  padding: 10px 30px;
+  padding: 10px;
   margin-top: 50px;
   border-radius: 20px;
 }
