@@ -6,7 +6,10 @@
   vertical-align: baseline;
   box-sizing: border-box;
 }
-
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #333;
@@ -19,6 +22,10 @@ body {
   padding: 30px;
   display: flex;
   margin-bottom: 30px;
+}
+.contactTitle {
+  color: #000;
+  font-weight: 600;
 }
 
 .flexProject {
@@ -43,7 +50,13 @@ body {
   font-family: "Montserrat", sans-serif;
   color: rgb(252, 252, 252);
 }
-
+.head2 {
+  animation-delay: 0.5s;
+  font-weight: 300;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(252, 252, 252);
+}
 .appLogo {
   width: 30%;
 }
@@ -51,71 +64,56 @@ body {
 .languages {
   list-style: none;
   padding: 30px;
+  font-weight: 300;
   display: block;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-}
-
-.liAnimation {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-}
-
-.liAnimation1 {
-  animation-delay: 0.5s;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-}
-
-.liAnimation2 {
-  animation-delay: 1s;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
 }
 
 .projects {
   text-align: center;
   padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .contact {
   text-align: center;
   padding: 30px;
-  background-color: rgb(78, 122, 189);
+  background-color: rgb(161, 44, 54);
   color: #fff;
   height: 300px;
 }
 
 .bio {
   line-height: 140%;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 300;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 nav {
   width: 100%;
-
-  background-color: rgb(49, 88, 141);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   height: 50px;
   text-align: center;
   align-self: flex-start;
-  position: fixed;
+  position: absolute;
   max-width: 100%;
 }
 
 .screenshot {
   width: 100%;
-  height: 100%;
   overflow: hidden;
-  max-width: 500px;
+  max-width: 350px;
+  max-height: 350px;
 }
 
 .aboutMe {
@@ -135,7 +133,6 @@ nav {
 
 .descriptionTitle {
   font-size: 35px;
-  padding: 10px;
   font-weight: 500;
   text-decoration: none !important;
   font-family: "Oswald", sans-serif;
@@ -144,10 +141,11 @@ nav {
 
 .appDescription {
   line-height: 140%;
+  width: 100%;
   font-size: 15px;
+  font-weight: 300;
   display: block;
   padding: 10px;
-  font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -166,6 +164,7 @@ nav {
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   color: rgb(235, 70, 85);
+  text-align: center;
 }
 
 .button {
@@ -229,6 +228,8 @@ nav {
   display: block;
   padding: 20px;
   margin-top: 40px;
+  color: #000;
+  font-weight: 500;
 }
 
 #icon {
@@ -237,9 +238,9 @@ nav {
 }
 
 .appImg {
-  width: 30%;
+  width: 300px;
   height: auto;
-  object-fit: scale-down;
+  overflow: hidden;
 }
 
 @media (min-width: 320px) {
@@ -254,22 +255,12 @@ nav {
     padding: 0;
   }
 
-  .liAnimation {
-    font-size: 40px;
-  }
-
-  .liAnimation1 {
-    font-size: 40px;
-  }
-
-  .liAnimation2 {
-    font-size: 40px;
-  }
-
   .head {
     font-size: 45px;
   }
-
+  .head2 {
+    font-size: 40px;
+  }
   .underLiner {
     font-size: 50px;
   }
@@ -315,29 +306,22 @@ nav {
 
   .buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .navLinks {
     font-size: 20px;
   }
 
-  .liAnimation {
-    font-size: 50px;
+  .screenshot {
+    max-width: 750px;
   }
-
-  .liAnimation1 {
-    font-size: 50px;
-  }
-
-  .liAnimation2 {
-    font-size: 50px;
-  }
-
   .head {
     font-size: 55px;
   }
-
+  .head2 {
+    font-size: 50px;
+  }
   .underLiner {
     font-size: 60px;
   }
@@ -373,7 +357,9 @@ nav {
   .links {
     margin-top: 15px;
   }
-
+  .button {
+    margin-right: 20px;
+  }
   .hello {
     display: block;
   }
@@ -389,27 +375,18 @@ nav {
   }
   .bio {
     width: 80%;
+    font-size: 30px;
   }
   .headliner {
     margin-top: 100px;
   }
 
-  .liAnimation {
-    font-size: 55px;
-  }
-
-  .liAnimation1 {
-    font-size: 55px;
-  }
-
-  .liAnimation2 {
-    font-size: 55px;
-  }
-
   .head {
     font-size: 60px;
   }
-
+  .head2 {
+    font-size: 55px;
+  }
   .underLiner {
     font-size: 65px;
   }
@@ -437,12 +414,6 @@ nav {
 
   .button {
     margin: 15px;
-  }
-
-  .buttons {
-    justify-content: left;
-
-    padding: 30px;
   }
 
   .description {
@@ -478,7 +449,9 @@ nav {
     margin-top: 100px;
     margin-bottom: 100px;
   }
-
+  .screenshot {
+    max-width: 300px;
+  }
   .end {
     margin-top: 40px;
   }
@@ -498,5 +471,10 @@ nav {
   }
   .appImg {
     width: 70%;
+  }
+}
+@media (min-width: 900px) {
+  .appDescription {
+    max-width: 500px;
   }
 }
