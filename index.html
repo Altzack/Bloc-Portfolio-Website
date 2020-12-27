@@ -7,7 +7,7 @@
     <title>Zack Altschuler</title>
     <script src="https://kit.fontawesome.com/802aef6d25.js"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Oswald:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Oswald:wght@500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -26,16 +26,15 @@
         <li><a class="navLinks" href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <!-- Headliner section -->
 
+    <!-- Headliner section -->
+    <div class="flexIntro">
     <header class="intro">
       <div class="hello">
         <h1 class="headliner">
-          <span class="underLiner">Hello</span>
-          <span class="head">I'm Zack,</span>
-          <span class="animated fadeInLeft head2"
-            >full stack web developer.</span
-          >
+          <span class="underLiner">Hello,</span>
+          <span class="head">I'm Zack Altschuler</span>
+          <span class="animated fadeInLeft head2">Frontend Engineer.</span>
         </h1>
       </div>
     </header>
@@ -54,21 +53,30 @@
           </p>
         </div>
       </section>
+    </div>
 
       <!-- project section -->
-      <h2 class="projectsTitle">Projects</h2>
+      <div class="projectTitleDiv">
+           <h2 class="projectsTitle">Projects</h2>
+          </div>
+
 
       <section id="projects" class="projects">
         <div class="flexProject">
-          <div class="screenshot">
-            <img src="img/stockdashss.png" alt="movie app" class="appImg" />
-          </div>
           <div class="description">
-            <span class="descriptionTitle">Stock-Dash</span>
-            <span class="appDescription">
-              A dashboard that allows you to get the latest news and pricing for
-              a symbol, as well as see the past month's price data visualized.
+            <span class="descriptionTitle">Stock-Dash
             </span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+              <div class="flexDescriptionDiv">
+                A dashboard that allows you to get the latest news and pricing
+                for a symbol, as well as see the past month's price data.
+              </div>
+                <div class="screenshot">
+                  <img src="img/stockdashss.png" alt="movie app" class="appImg" />
+                </div>
+              </div>
+            </div>
             <div class="languageDiv">
               <span class="languagesTitle">Tech Used:</span>
               <span class="languages"
@@ -93,14 +101,19 @@
         </div>
 
         <div class="flexProject">
-          <div class="screenshot">
-            <img src="img/Boozy-min.png" alt="quiz app" class="appImg" />
-          </div>
           <div class="description">
             <span class="descriptionTitle">Boozy</span>
-            <span class="appDescription">
-              A platform to Browse, create and share custom mixed drink recipes.
-            </span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                <div class="flexDescriptionDiv">
+                  A platform to Browse, create and share custom mixed drink
+                recipes. This was built as my first full stack capstone for Bloc.
+              </div>
+                <div class="screenshot">
+                  <img src="img/Boozy-min.png" alt="quiz app" class="appImg" />
+                </div>
+              </div>
+            </div>
             <div class="languageDiv">
               <span class="languagesTitle">Tech Used:</span>
               <span class="languages"
@@ -122,13 +135,55 @@
         </div>
 
         <div class="flexProject">
-          <div class="screenshot">
-            <img src="img/TodoApp.png" alt="todo app" class="appImg" />
+      
+          <div class="description">
+            <span class="descriptionTitle">Colors and Movies</span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                              <div class="flexDescriptionDiv">
+
+                A movie generating/list making app based on your favorite color.
+                Pick a color and get back a random movie from that genre.
+                              </div>
+                <div class="screenshot">
+                  <img src="img/movieAppSS2.png" alt="movie app" class="appImg" />
+                </div>
+              </div>
+            </div>
+            <div class="languageDiv">
+              <span class="languagesTitle">Tech Used:</span>
+              <span class="languages">HTML, CSS, JavaScript, jQuery. </span>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://movie-capstone.netlify.app/"
+                target="_blank"
+                class="button"
+                >see the app
+              </a>
+              <a
+                href="https://github.com/Altzack/Movie-App"
+                target="_blank"
+                class="button"
+                >github repo</a
+              >
+            </div>
           </div>
+        </div>
+
+        <div class="flexProject">
           <div class="description">
             <span class="descriptionTitle">Todo App</span>
-            <div class="appDescription">
-              A todo app with timers to keep track of multiple things at once.
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                <div class="flexDescriptionDiv">
+
+                A todo app with timers to keep track of multiple tasks at once. This was built so I could practice using React hooks with functional components.
+                </div>
+                <div class="screenshot">
+                  <img src="img/TodoApp.png" alt="todo app" class="appImg" />
+                </div>
+              </div>
             </div>
             <div class="languageDiv">
               <span class="languagesTitle">Tech Used:</span>
@@ -151,16 +206,22 @@
           </div>
         </div>
 
-        <div class="flexProject">
-          <div class="screenshot">
-            <img src="img/movieAppSS2.png" alt="movie app" class="appImg" />
-          </div>
+        <!-- <div class="flexProject">
+      
           <div class="description">
             <span class="descriptionTitle">Colors and Movies</span>
-            <span class="appDescription">
-              A movie generating/list making app based on your favorite color.
-              Pick a color and get back a random movie from that genre.
-            </span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                              <div style="width: 600px;">
+
+                A movie generating/list making app based on your favorite color.
+                Pick a color and get back a random movie from that genre.
+                              </div>
+                <div class="screenshot">
+                  <img src="img/movieAppSS2.png" alt="movie app" class="appImg" />
+                </div>
+              </div>
+            </div>
             <div class="languageDiv">
               <span class="languagesTitle">Tech Used:</span>
               <span class="languages">HTML, CSS, JavaScript, jQuery. </span>
@@ -180,28 +241,29 @@
               >
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
     </main>
+
     <!-- contact section  -->
 
     <footer role="contact-info" id="contact" class="contact">
       <div class="FooterContainer">
         <div class="FooterContentContainer">
           <div>
-            Created by |
+            Created by
             <i>Zack 2020</i>
           </div>
-          <div>
+          <div  class="iconDiv">
             <a href="mailto:altschulerzack@yahoo.com"
-              ><i id="icon" class="fa fa-envelope fa-2x"></i></a
+              ><i id="icon" class="fa fa-envelope"></i></a
             ><a href="https://github.com/Altzack" target="_blank"
-              ><i id="icon" class="fa fa-github fa-2x"></i
+              ><i id="icon" class="fa fa-github"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/zack-altschuler-4603491ab"
               target="_blank"
-              ><i id="icon" class="fa fa-linkedin fa-2x"></i
+              ><i id="icon" class="fa fa-linkedin"></i
             ></a>
           </div>
         </div>

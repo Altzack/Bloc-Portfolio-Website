@@ -19,14 +19,26 @@ body {
 .FooterContentContainer {
   max-width: 1200px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
   width: 100%;
+  min-height: 64px;
 }
+
+.fa {
+  font-size: 25px;
+  color: rgb(46, 145, 246);
+}
+
+.languageDiv {
+  margin-top: 12px;
+}
+
 .FooterContainer {
   width: 100%;
-  color: rgba(232, 230, 227, 0.85);
-  background-color: rgb(34, 36, 38);
+  color: #e8e6e3;
+  background-color: rgb(40, 42, 44);
   margin-top: 48px;
 }
 .FooterSeperator {
@@ -45,11 +57,17 @@ body {
 }
 
 .flexProject {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .underLiner {
+  font-size: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-family: "Rubik";
   color: rgb(235, 70, 85);
+  text-align: center;
 }
 
 .headliner {
@@ -76,10 +94,15 @@ body {
 .appLogo {
   width: 30%;
 }
-
+.iconDiv {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
 .languages {
   list-style: none;
-  padding: 30px;
+  font-size: 13px;
+  padding: 10px;
   font-weight: 300;
   display: block;
   font-family: "Montserrat", sans-serif;
@@ -90,27 +113,26 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .bio {
   line-height: 140%;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 14px;
+  width: 100%;
+  font-weight: 200;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
 nav {
   width: 100%;
   background-color: rgb(24, 26, 27);
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
+  font-family: "Rubik";
   height: 50px;
   text-align: center;
   align-self: flex-start;
@@ -127,33 +149,37 @@ nav {
 
 .aboutMe {
   text-align: center;
-  padding: 20px;
-  margin-bottom: 100px;
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-left: 10px;
 }
 
 .aboutMeTitle {
-  font-size: 50px;
-  padding: 20px;
-  margin-bottom: 20px;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-family: "Rubik";
   color: rgb(235, 70, 85);
+  text-align: center;
 }
 
 .descriptionTitle {
-  font-size: 35px;
-  font-weight: 500;
+  font-size: 27px;
   text-decoration: none !important;
-  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  margin-top: 100px;
+  font-family: "Rubik";
   color: rgb(235, 70, 85);
 }
 
 .appDescription {
   line-height: 140%;
-  width: 100%;
-  font-size: 15px;
+  width: 300px;
+  font-size: 13px;
   font-weight: 300;
-  display: block;
+  display: flex;
+  justify-content: center;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
 }
@@ -167,43 +193,61 @@ nav {
 }
 
 .projectsTitle {
-  font-size: 50px;
-  padding: 20px;
-  margin-bottom: 20px;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-family: "Rubik";
   color: rgb(235, 70, 85);
   text-align: center;
+  border-bottom: 1px solid #fff;
+  width: 300px;
 }
-
+/* background: rgb(199, 36, 50); */
+.projectTitleDiv {
+  display: flex;
+  justify-content: center;
+}
 .button {
-  margin-right: 10px;
-  display: inline-block;
+  background: none;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 400;
   text-decoration: none;
-  font-size: 15px;
-  color: white;
-  background: rgb(199, 36, 50);
-  padding: 10px;
-  margin-top: 50px;
-  border-radius: 20px;
+  width: 120px;
+  margin-top: 12px;
+  outline: none;
+  margin-left: 10px;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  border: 1px solid rgb(235, 70, 85);
+  color: rgb(235, 70, 85);
 }
 
 .button:hover {
-  background: rgb(235, 70, 85);
-  color: white;
+  transition: all 0.1s ease-in-out;
+  background-color: rgb(235, 70, 85);
+  color: #000;
+  cursor: pointer;
 }
 
 .description {
   font-size: 20px;
   text-align: center;
+  margin-top: 12px;
 }
 
 .languagesTitle {
-  font-size: 30px;
-  margin-top: 300px;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  font-family: "Rubik";
   color: rgb(235, 70, 85);
+}
+
+.appDescriptionDiv {
+  display: flex;
+  justify-content: center;
 }
 
 .topList {
@@ -215,10 +259,10 @@ nav {
 .navLinks {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
   color: rgb(252, 252, 252);
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Rubik";
 }
 
 .navLinks:hover {
@@ -244,13 +288,12 @@ nav {
 }
 
 #icon {
-  color: #fff;
-  padding: 20px;
+  padding: 5px;
 }
 
 .appImg {
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: auto;
   overflow: hidden;
 }
 
@@ -262,33 +305,45 @@ nav {
     margin-top: 15px;
   }
 
-  .languages {
-    padding: 0;
+  .appDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
+
   .FooterContentContainer {
     flex-direction: column;
-    padding-top: 12px;
+    padding: 24px 0px;
   }
   .head {
-    font-size: 45px;
+    font-size: 25px;
+    margin-top: 12px;
+  }
+  .flexDescriptionDiv {
+    margin-bottom: 14px;
+  }
+  .iconDiv {
+    width: 45%;
+    margin-top: 20px;
+    color: rgb(46, 145, 246);
   }
   .head2 {
-    font-size: 40px;
+    font-size: 25px;
+    margin-top: 12px;
   }
   .underLiner {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .appImg {
-    width: 100%;
+    width: 80%;
+    height: 120px;
   }
 
   .nav {
     width: 100%;
   }
-  .buttons {
-    margin-left: 10px;
-  }
+
   .headliner {
     margin-top: 70px;
   }
@@ -296,7 +351,10 @@ nav {
   .hello {
     display: block;
   }
-
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
   .appLogo {
     width: 100%;
     margin-top: 30px;
@@ -304,10 +362,6 @@ nav {
 }
 
 @media (max-width: 321px) {
-  .languages {
-    font-size: 15px;
-  }
-
   .end {
     margin-top: 0px;
     padding: 0px;
@@ -320,9 +374,23 @@ nav {
     width: 60%;
   }
 
-  .buttons {
+  .aboutMeBio {
     display: flex;
     justify-content: center;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: left;
+  }
+  .iconDiv {
+    width: 30%;
+    margin-top: 0px;
+  }
+  .button {
+    margin-left: 20px;
+    width: 150px;
+    font-size: 18px;
   }
 
   .navLinks {
@@ -332,26 +400,37 @@ nav {
   .screenshot {
     max-width: 750px;
   }
+
   .head {
-    font-size: 55px;
-  }
-  .head2 {
-    font-size: 50px;
-  }
-  .underLiner {
-    font-size: 60px;
+    font-size: 38px;
   }
 
-  h1 {
-    font-size: 60px;
+  .head2 {
+    font-size: 38px;
+  }
+
+  .languages {
+    font-size: 15px;
+  }
+
+  .languageDiv {
+    margin-left: 10px;
+  }
+  .underLiner {
+    font-size: 40px;
   }
 
   .appImg {
-    width: 65%;
+    width: 80%;
+    height: 90px;
+    margin-left: 30px;
   }
 
   .bio {
-    font-size: 25px;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 10px;
+    max-width: 590px;
   }
 
   .FooterContentContainer {
@@ -360,27 +439,40 @@ nav {
   }
 
   .aboutMeTitle {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .appDescription {
-    font-size: 25px;
+    font-size: 17px;
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
   }
-
+  .flexDescriptionDiv {
+    width: 600px;
+  }
   .projectsTitle {
-    font-size: 50px;
+    font-size: 40px;
   }
-
+  .description {
+    text-align: left;
+  }
   .descriptionTitle {
-    font-size: 35px;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .flexProject {
+    display: flex;
+    justify-content: center;
+    width: 670px;
   }
 
   .links {
     margin-top: 15px;
   }
-  .button {
-    margin-right: 15px;
-  }
+
   .hello {
     display: block;
   }
@@ -393,17 +485,18 @@ nav {
   }
   .flexProject {
     display: flex;
+    width: 835px;
   }
   .bio {
-    width: 80%;
+    max-width: 730px;
     font-size: 30px;
   }
   .headliner {
-    margin-top: 100px;
+    margin-top: 78px;
   }
 
   .head {
-    font-size: 60px;
+    font-size: 55px;
   }
   .head2 {
     font-size: 55px;
@@ -430,17 +523,17 @@ nav {
 
   .languages {
     letter-spacing: 2.5px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .description {
     text-align: left;
+    font-size: 17px;
   }
 
   .descriptionTitle {
     margin-bottom: 20px;
     margin-left: 10px;
-    text-decoration: underline;
   }
 
   .email {
@@ -456,6 +549,13 @@ nav {
   }
   .end {
     margin-top: 40px;
+  }
+
+  .appDescriptionDiv {
+    justify-content: left;
+  }
+  .appDescription {
+    text-align: left;
   }
   .aboutMeBio {
     display: flex;
@@ -473,9 +573,9 @@ nav {
   }
   .appImg {
     width: 70%;
+    height: 90px;
   }
-}
-@media (min-width: 900px) {
+
   .appDescription {
     max-width: 500px;
   }
@@ -488,5 +588,71 @@ nav {
   }
   .button {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .bio {
+    max-width: 650px;
+    font-size: 20px;
+  }
+  .FooterContentContainer {
+    padding: 0px;
+  }
+  .iconDiv {
+    width: 20%;
+  }
+  .links {
+    justify-content: space-evenly;
+    width: 60%;
+  }
+  .appDescription {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .appDescriptionDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  .flexIntro {
+    justify-content: center;
+  }
+  .projectsTitle {
+    width: 500px;
+  }
+  .appImg {
+    width: 130px;
+    margin-left: 30px;
+  }
+  .underlineDiv {
+    width: 500px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+  }
+  .head {
+    font-size: 40px;
+  }
+  .projectTitleDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .projects {
+    display: flex;
+    justify-content: center;
+  }
+  .head2 {
+    font-size: 40px;
+  }
+  .description {
+    height: 320px;
+  }
+  .flexProject {
+    width: 630px;
+    height: 320px;
   }
 }
