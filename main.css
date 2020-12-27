@@ -64,7 +64,7 @@ body {
   font-size: 40px;
   padding: 10px;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Rubik";
   color: rgb(235, 70, 85);
   text-align: center;
@@ -136,6 +136,8 @@ nav {
   height: 50px;
   text-align: center;
   align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   max-width: 100%;
 }
@@ -158,7 +160,7 @@ nav {
   font-size: 30px;
   padding: 10px;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Rubik";
   color: rgb(235, 70, 85);
   text-align: center;
@@ -189,6 +191,7 @@ nav {
   justify-content: space-evenly;
   text-decoration: none;
   list-style: none;
+  height: 50px;
   text-align: center;
 }
 
@@ -196,7 +199,7 @@ nav {
   font-size: 30px;
   padding: 10px;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Rubik";
   color: rgb(235, 70, 85);
   text-align: center;
@@ -299,12 +302,15 @@ nav {
 
 @media (min-width: 320px) {
   .links {
-    display: flex;
-    width: 100%;
     justify-content: space-evenly;
-    margin-top: 15px;
-  }
+    margin-top: 13px;
 
+    width: 60%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
   .appDescription {
     display: flex;
     flex-direction: column;
@@ -321,6 +327,10 @@ nav {
   }
   .flexDescriptionDiv {
     margin-bottom: 14px;
+  }
+  #iconLogo {
+    margin-top: 10px;
+    margin-left: 15px;
   }
   .iconDiv {
     width: 45%;
@@ -392,7 +402,14 @@ nav {
     width: 150px;
     font-size: 18px;
   }
-
+  .portfolio-logo {
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .navLinks {
     font-size: 20px;
   }
@@ -460,7 +477,7 @@ nav {
     text-align: left;
   }
   .descriptionTitle {
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 10px;
   }
   .flexProject {
@@ -470,7 +487,12 @@ nav {
   }
 
   .links {
-    margin-top: 15px;
+    justify-content: space-evenly;
+    width: 40%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
   }
 
   .hello {
@@ -604,7 +626,7 @@ nav {
   }
   .links {
     justify-content: space-evenly;
-    width: 60%;
+    width: 25%;
   }
   .appDescription {
     width: 100%;
@@ -615,9 +637,10 @@ nav {
     display: flex;
     justify-content: space-between;
   }
+
   nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
   .flexIntro {
     justify-content: center;
