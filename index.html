@@ -1,197 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zack Altschuler</title>
+    <script src="https://kit.fontawesome.com/802aef6d25.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
 
-  <title>Zack Altschuler</title>
-  <script src="https://kit.fontawesome.com/802aef6d25.js"></script>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Oswald:wght@500&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
 
-  <link rel="stylesheet" href="main.css" />
-</head>
+  <body>
+    <nav>
+      <i id="iconLogo" class="fa fa-code"></i>
+      <ul class="links">
+        <li><a class="navLinks" href="#aboutme">About</a></li>
+        <li><a class="navLinks" href="#projects">Projects</a></li>
+        <li><a class="navLinks" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <nav>
-    <i id="iconLogo" class="fa fa-code"></i>
-    <ul class="links">
-      <li><a class="navLinks" href="#aboutme">About</a></li>
-      <li><a class="navLinks" href="#projects">Projects</a></li>
-      <li><a class="navLinks" href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <!-- Headliner section -->
+    <div class="flexIntro">
+      <header class="intro">
+        <div class="hello">
+          <h1 class="headliner">
+            <span class="underLiner">Hello,</span>
+            <span class="head">I'm Zack Altschuler</span>
+            <span class="animated fadeInLeft head2">Frontend Engineer.</span>
+          </h1>
+        </div>
+      </header>
 
-  <!-- Headliner section -->
-  <div class="flexIntro">
-    <header class="intro">
-      <div class="hello">
-        <h1 class="headliner">
-          <span class="underLiner">Hello,</span>
-          <span class="head">I'm Zack Altschuler</span>
-          <span class="animated fadeInLeft head2">Frontend Engineer.</span>
-        </h1>
-      </div>
-    </header>
-
-    <!-- about section -->
-    <main>
+      <!-- about section -->
       <section id="aboutme" class="aboutMe">
         <h2 class="aboutMeTitle">About me</h2>
         <div class="aboutMeBio">
           <p class="bio">
-            I'm a full stack web developer with experience
-            using CSS3, HTML5, JavaScript(es6, jsx), JQuery, React, Node.js,
-            Express.js, and PostgreSQL to build web applications. I love using new technologies to create a seamless
-            user experience.
+            I'm a full stack web developer with experience using CSS3, HTML5,
+            JavaScript(es6, jsx), JQuery, React, Node.js, Express.js, and
+            PostgreSQL to build web applications. I love using new technologies
+            to create a seamless user experience.
           </p>
         </div>
       </section>
-  </div>
+    </div>
 
-  <!-- project section -->
-  <section id="projects">
+    <!-- project section -->
+    <section id="projects">
+      <div class="projectTitleDiv">
+        <h2 class="projectsTitle">Projects</h2>
+      </div>
 
-  <div class="projectTitleDiv">
-    <h2 class="projectsTitle">Projects</h2>
-  </div>
-
-  <div class="projects">
-    <div class="flexProject">
-      <div class="description">
-        <span class="descriptionTitle">Stock-Dash
-        </span>
-        <div class="appDescriptionDiv">
-          <div class="appDescription">
-            <div class="flexDescriptionDiv">
-              A dashboard that allows you to get the latest news and pricing
-              for a symbol, as well as see the past month's price data. This was my final project for Bloc.
+      <div class="projects">
+        <div class="flexProject">
+          <div class="description">
+            <span class="descriptionTitle">Stock-Dash </span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                <div class="flexDescriptionDiv">
+                  A dashboard that allows you to get the latest news and pricing
+                  for a symbol, as well as see the past month's price data. This
+                  was my final project for Bloc.
+                </div>
+                <div class="screenshot">
+                  <img
+                    src="img/stockdashss.png"
+                    alt="movie app"
+                    class="appImg"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="screenshot">
-              <img src="img/stockdashss.png" alt="movie app" class="appImg" />
+            <div class="languageDiv">
+              <span class="languagesTitle">Tech Used:</span>
+              <span class="languages"
+                >(PERN) PostgreSQL, Express, React, Node
+              </span>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://stock-dash.vercel.app/"
+                target="_blank"
+                class="button"
+                >See the app
+              </a>
+              <a
+                href="https://github.com/Altzack/Stock-Dash"
+                target="_blank"
+                class="button"
+                >Github repo</a
+              >
             </div>
           </div>
         </div>
-        <div class="languageDiv">
-          <span class="languagesTitle">Tech Used:</span>
-          <span class="languages">(PERN) PostgreSQL, Express, React, Node
-          </span>
-        </div>
-        <div class="buttons">
-          <a href="https://stock-dash.vercel.app/" target="_blank" class="button">See the app
-          </a>
-          <a href="https://github.com/Altzack/Stock-Dash" target="_blank" class="button">Github repo</a>
-        </div>
-      </div>
-    </div>
 
-    <div class="flexProject">
-      <div class="description">
-        <span class="descriptionTitle">Boozy</span>
-        <div class="appDescriptionDiv">
-          <div class="appDescription">
-            <div class="flexDescriptionDiv">
-              A platform to Browse, create and share custom mixed drink
-              recipes with your friends. This was built as my first full stack capstone for Bloc.
+        <div class="flexProject">
+          <div class="description">
+            <span class="descriptionTitle">Boozy</span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                <div class="flexDescriptionDiv">
+                  A platform to Browse, create and share custom mixed drink
+                  recipes with your friends. This was built as my first full
+                  stack capstone for Bloc.
+                </div>
+                <div class="screenshot">
+                  <img src="img/Boozy-min.png" alt="quiz app" class="appImg" />
+                </div>
+              </div>
             </div>
-            <div class="screenshot">
-              <img src="img/Boozy-min.png" alt="quiz app" class="appImg" />
+            <div class="languageDiv">
+              <span class="languagesTitle">Tech Used:</span>
+              <span class="languages"
+                >(PERN) PostgreSQL, Express, React, Node
+              </span>
             </div>
-          </div>
-        </div>
-        <div class="languageDiv">
-          <span class="languagesTitle">Tech Used:</span>
-          <span class="languages">(PERN) PostgreSQL, Express, React, Node
-          </span>
-        </div>
-        <div class="buttons">
-          <a href="https://boozy.vercel.app/" target="_blank" class="button">See the app
-          </a>
-          <a href="https://github.com/Altzack/Boozy" target="_blank" class="button">Github repo</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="flexProject">
-      <div class="description">
-        <span class="descriptionTitle">Colors and Movies</span>
-        <div class="appDescriptionDiv">
-          <div class="appDescription">
-            <div class="flexDescriptionDiv">
-              A movie generating/list making app based on your favorite color.
-              Pick a color and get back a random movie from that genre. This was built as my first jQuery capstone.
-            </div>
-            <div class="screenshot">
-              <img src="img/movieAppSS2.png" alt="movie app" class="appImg" />
+            <div class="buttons">
+              <a href="https://boozy.vercel.app/" target="_blank" class="button"
+                >See the app
+              </a>
+              <a
+                href="https://github.com/Altzack/Boozy"
+                target="_blank"
+                class="button"
+                >Github repo</a
+              >
             </div>
           </div>
         </div>
-        <div class="languageDiv">
-          <span class="languagesTitle">Tech Used:</span>
-          <span class="languages">HTML, CSS, JavaScript, jQuery. </span>
-        </div>
-        <div class="buttons">
-          <a href="https://movie-capstone.netlify.app/" target="_blank" class="button">See the app
-          </a>
-          <a href="https://github.com/Altzack/Movie-App" target="_blank" class="button">Github repo</a>
-        </div>
-      </div>
-    </div>
 
-    <div class="flexProject">
-      <div class="description">
-        <span class="descriptionTitle">Todo App</span>
-        <div class="appDescriptionDiv">
-          <div class="appDescription">
-            <div class="flexDescriptionDiv">
-              A todo app with timers to keep track of multiple tasks at once. This was built so I could practice using
-              React hooks with functional components.
+        <div class="flexProject">
+          <div class="description">
+            <span class="descriptionTitle">Colors and Movies</span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                <div class="flexDescriptionDiv">
+                  A movie generating/list making app based on your favorite
+                  color. Pick a color and get back a random movie from that
+                  genre. This was built as my first jQuery capstone.
+                </div>
+                <div class="screenshot">
+                  <img
+                    src="img/movieAppSS2.png"
+                    alt="movie app"
+                    class="appImg"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="screenshot">
-              <img src="img/TodoApp.png" alt="todo app" class="appImg" />
+            <div class="languageDiv">
+              <span class="languagesTitle">Tech Used:</span>
+              <span class="languages">HTML, CSS, JavaScript, jQuery. </span>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://movie-capstone.netlify.app/"
+                target="_blank"
+                class="button"
+                >See the app
+              </a>
+              <a
+                href="https://github.com/Altzack/Movie-App"
+                target="_blank"
+                class="button"
+                >Github repo</a
+              >
             </div>
           </div>
         </div>
-        <div class="languageDiv">
-          <span class="languagesTitle">Tech Used:</span>
-          <span class="languages">React, CSS. </span>
-        </div>
-        <div class="buttons">
-          <a href="https://todotimerapp.netlify.app/" target="_blank" class="button">See the app
-          </a>
-          <a href="https://github.com/Altzack/TodoApp" target="_blank" class="button">Github repo</a>
+
+        <div class="flexProject">
+          <div class="description">
+            <span class="descriptionTitle">Todo App</span>
+            <div class="appDescriptionDiv">
+              <div class="appDescription">
+                <div class="flexDescriptionDiv">
+                  A todo app with timers to keep track of multiple tasks at
+                  once. This was built so I could practice using React hooks
+                  with functional components.
+                </div>
+                <div class="screenshot">
+                  <img src="img/TodoApp.png" alt="todo app" class="appImg" />
+                </div>
+              </div>
+            </div>
+            <div class="languageDiv">
+              <span class="languagesTitle">Tech Used:</span>
+              <span class="languages">React, CSS. </span>
+            </div>
+            <div class="buttons">
+              <a
+                href="https://todotimerapp.netlify.app/"
+                target="_blank"
+                class="button"
+                >See the app
+              </a>
+              <a
+                href="https://github.com/Altzack/TodoApp"
+                target="_blank"
+                class="button"
+                >Github repo</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </div>
-  </section>
-  </main>
+    <!-- contact section  -->
 
-  <!-- contact section  -->
-
-  <footer id="contact" class="contact">
-    <div class="FooterContainer">
-      <div class="FooterContentContainer">
-        <div>
-          Created by
-          <i>Zack 2020</i>
-        </div>
-        <div class="iconDiv">
-          <a href="mailto:altschulerzack@yahoo.com"><i  class="fa fa-envelope"></i></a><a
-            href="https://github.com/Altzack" target="_blank"><i  class="fa fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/zack-altschuler-4603491ab" target="_blank"><i 
-              class="fa fa-linkedin"></i></a>
+    <footer id="contact" class="contact">
+      <div class="FooterContainer">
+        <div class="FooterContentContainer">
+          <div>
+            Created by
+            <i>Zack 2020</i>
+          </div>
+          <div class="iconDiv">
+            <a href="mailto:altschulerzack@yahoo.com"
+              ><i class="fa fa-envelope"></i></a
+            ><a href="https://github.com/Altzack" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/zack-altschuler-4603491ab"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
-</body>
-
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
