@@ -66,7 +66,7 @@ body {
   margin-bottom: 10px;
   font-weight: 400;
   font-family: "Rubik";
-  color: rgb(235, 70, 85);
+  color: #c21807;
   text-align: center;
 }
 
@@ -162,17 +162,17 @@ nav {
   margin-bottom: 10px;
   font-weight: 400;
   font-family: "Rubik";
-  color: rgb(235, 70, 85);
+  color: #c21807;
   text-align: center;
 }
 
 .descriptionTitle {
-  font-size: 27px;
+  font-size: 24px;
   text-decoration: none !important;
   font-weight: 200;
   margin-top: 100px;
   font-family: "Rubik";
-  color: rgb(235, 70, 85);
+  color: #c21807;
 }
 
 .appDescription {
@@ -201,10 +201,10 @@ nav {
   margin-bottom: 10px;
   font-weight: 400;
   font-family: "Rubik";
-  color: rgb(235, 70, 85);
+  color: #c21807;
   text-align: center;
   border-bottom: 1px solid #fff;
-  width: 300px;
+  width: 266px;
 }
 /* background: rgb(199, 36, 50); */
 .projectTitleDiv {
@@ -224,13 +224,14 @@ nav {
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  border: 1px solid rgb(235, 70, 85);
-  color: rgb(235, 70, 85);
+  border: 1px solid #c21807;
+  color: #c21807;
 }
-
+/* #C21807
+#C21807 */
 .button:hover {
   transition: all 0.1s ease-in-out;
-  background-color: rgb(235, 70, 85);
+  background-color: #c21807;
   color: #000;
   cursor: pointer;
 }
@@ -245,7 +246,7 @@ nav {
   font-size: 22px;
   font-weight: 200;
   font-family: "Rubik";
-  color: rgb(235, 70, 85);
+  color: #c21807;
 }
 
 .appDescriptionDiv {
@@ -269,7 +270,7 @@ nav {
 }
 
 .navLinks:hover {
-  color: rgb(235, 70, 85);
+  color: #c21807;
 }
 
 .email {
@@ -393,6 +394,10 @@ nav {
     display: flex;
     justify-content: left;
   }
+  .projectsTitle {
+    width: 500px;
+    font-size: 30px;
+  }
   .iconDiv {
     width: 30%;
     margin-top: 0px;
@@ -419,15 +424,15 @@ nav {
   }
 
   .head {
-    font-size: 38px;
+    font-size: 33px;
   }
 
   .head2 {
-    font-size: 38px;
+    font-size: 33px;
   }
 
   .languages {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .languageDiv {
@@ -456,11 +461,11 @@ nav {
   }
 
   .aboutMeTitle {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .appDescription {
-    font-size: 17px;
+    font-size: 15px;
     padding: 10px;
     width: 500px;
     display: flex;
@@ -470,14 +475,12 @@ nav {
   .flexDescriptionDiv {
     width: 600px;
   }
-  .projectsTitle {
-    font-size: 40px;
-  }
+
   .description {
     text-align: left;
   }
   .descriptionTitle {
-    font-size: 28px;
+    font-size: 25px;
     margin-left: 10px;
   }
   .flexProject {
@@ -524,7 +527,7 @@ nav {
     font-size: 55px;
   }
   .underLiner {
-    font-size: 65px;
+    font-size: 55px;
   }
 
   .appLogo {
@@ -583,13 +586,7 @@ nav {
     display: flex;
     justify-content: center;
   }
-  .headliner1 {
-    margin-top: 65px;
-    font-weight: 500;
-    font-family: "Oswald", sans-serif;
 
-    color: rgb(252, 252, 252);
-  }
   .languageDiv {
     margin-left: 10px;
   }
@@ -674,8 +671,23 @@ nav {
   .description {
     height: 320px;
   }
+  .descriptionTitle {
+    font-size: 26px;
+  }
   .flexProject {
     width: 630px;
     height: 320px;
+  }
+  @media (min-width: 1700px) {
+    .flexIntro {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .underliner {
+      font-size: 40px;
+    }
+    .headliner {
+      margin-top: 78px;
+    }
   }
 }
