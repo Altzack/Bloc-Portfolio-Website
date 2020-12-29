@@ -32,7 +32,7 @@ html {
 
 .fa {
   font-size: 25px;
-  color: rgb(46, 145, 246);
+  color: #27bdfd;
 }
 
 .languageDiv {
@@ -70,7 +70,7 @@ html {
   margin-bottom: 10px;
   font-weight: 400;
   font-family: "Rubik";
-  color: #c21807;
+  color: #27bdfd;
   text-align: center;
 }
 
@@ -165,24 +165,24 @@ nav {
   margin-bottom: 10px;
   font-weight: 400;
   font-family: "Rubik";
-  color: #c21807;
+  color: #27bdfd;
   text-align: center;
 }
 
 .descriptionTitle {
   font-size: 24px;
   text-decoration: none !important;
-  font-weight: 200;
+  font-weight: 400;
   margin-top: 100px;
-  font-family: "Rubik";
-  color: #c21807;
+  font-family: "Montserrat", sans-serif;
+  color: #27bdfd;
 }
 
 .appDescription {
   line-height: 140%;
   width: 300px;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 200;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -204,10 +204,10 @@ nav {
   margin-bottom: 10px;
   font-weight: 400;
   font-family: "Rubik";
-  color: #c21807;
+  color: #27bdfd;
   text-align: center;
   border-bottom: 1px solid #fff;
-  width: 266px;
+  width: 300px;
 }
 .projectTitleDiv {
   display: flex;
@@ -226,13 +226,13 @@ nav {
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  border: 1px solid #c21807;
-  color: #c21807;
+  border: 1px solid #27bdfd;
+  color: #27bdfd;
 }
 
 .button:hover {
   transition: all 0.1s ease-in-out;
-  background-color: #c21807;
+  background-color: #27bdfd;
   color: #000;
   cursor: pointer;
 }
@@ -245,9 +245,9 @@ nav {
 
 .languagesTitle {
   font-size: 22px;
-  font-weight: 200;
-  font-family: "Rubik";
-  color: #c21807;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #27bdfd;
 }
 
 .appDescriptionDiv {
@@ -271,7 +271,7 @@ nav {
 }
 
 .navLinks:hover {
-  color: #c21807;
+  color: #27bdfd;
 }
 
 .email {
@@ -397,7 +397,7 @@ nav {
     justify-content: left;
   }
   .projectsTitle {
-    width: 500px;
+    width: 590px;
     font-size: 30px;
   }
   .iconDiv {
@@ -645,7 +645,7 @@ nav {
     justify-content: center;
   }
   .projectsTitle {
-    width: 500px;
+    width: 745px;
     font-size: 35px;
   }
   .aboutMeTitle {
