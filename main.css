@@ -328,7 +328,8 @@ nav {
     margin-top: 12px;
   }
   .flexDescriptionDiv {
-    margin-bottom: 14px;
+    margin-bottom: 25px;
+    text-align: left;
   }
   #iconLogo {
     margin-top: 10px;
