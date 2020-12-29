@@ -16,6 +16,10 @@ body {
   max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .FooterContentContainer {
   max-width: 1200px;
   display: flex;
@@ -133,7 +137,7 @@ nav {
   background-color: rgb(24, 26, 27);
   border-radius: 5px;
   font-family: "Rubik";
-  height: 50px;
+  height: 45px;
   text-align: center;
   align-self: flex-start;
   display: flex;
