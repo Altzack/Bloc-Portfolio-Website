@@ -476,6 +476,7 @@ nav {
   }
   .flexDescriptionDiv {
     width: 600px;
+    text-align: left;
   }
 
   .description {
