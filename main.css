@@ -142,14 +142,13 @@ nav {
   align-self: flex-start;
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
   max-width: 100%;
 }
 
 .screenshot {
   width: 100%;
   overflow: hidden;
-  /* max-width: 350px; */
   max-height: 350px;
 }
 
@@ -210,7 +209,6 @@ nav {
   border-bottom: 1px solid #fff;
   width: 266px;
 }
-/* background: rgb(199, 36, 50); */
 .projectTitleDiv {
   display: flex;
   justify-content: center;
@@ -231,8 +229,7 @@ nav {
   border: 1px solid #c21807;
   color: #c21807;
 }
-/* #C21807
-#C21807 */
+
 .button:hover {
   transition: all 0.1s ease-in-out;
   background-color: #c21807;
